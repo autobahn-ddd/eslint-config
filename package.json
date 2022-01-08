@@ -4,9 +4,12 @@
   "description": "ESLint plugin for autobahn-ddd organization.",
   "main": "index.js",
   "scripts": {
-    "test": "",
-    "prepush": "npm run test && npm run lint:fix && npm run build",
-    "prebuild": "rimraf dist"
+    "generate-barrels": "",
+    "build": "",
+    "prepush": "npm run test && npm run lint && npm run build",
+    "prebuild": "rimraf dist",
+    "lint": "",
+    "test": ""
   },
   "repository": {
     "type": "git",
